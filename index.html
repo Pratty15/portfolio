@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pratyush | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <!-- Header -->
   <header>
-    <h1>Pratyush</h1>
+    <h1 class="gradient-text">Pratyush</h1>
     <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
@@ -21,8 +23,8 @@
   </header>
 
   <!-- Home -->
-  <section id="home">
-    <h1>Hello, I'm Pratyush 👋</h1>
+  <section id="home" class="hero">
+    <h1>Hello, I'm <span class="gradient-text">Pratyush</span> 👋</h1>
     <h3>A Student & Developer passionate about building projects</h3>
     <a href="#projects" class="btn">View My Work</a>
   </section>
@@ -70,14 +72,19 @@
   <section id="contact">
     <h2>Contact</h2>
     <p>📧 Email: yourname@gmail.com</p>
-    <p>🔗 <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
-       <a href="https://github.com" target="_blank">GitHub</a></p>
+    <p>🔗 
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com" target="_blank">GitHub</a>
+    </p>
   </section>
 
   <!-- Footer -->
   <footer>
     <p>© 2025 Pratyush | All Rights Reserved</p>
   </footer>
+
+  <!-- Scroll To Top -->
+  <button id="scrollTopBtn" title="Go to top">⬆</button>
 
   <script src="script.js"></script>
 </body>
